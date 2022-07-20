@@ -478,19 +478,19 @@ img.select-thumbnail-options {
   cursor: pointer;
 }
 
-img.select-thumbnail-options:hover {
-  filter: brightness(120%);
-}
+// img.select-thumbnail-options:hover {
+//   filter: brightness(120%);
+// }
 
-img.select-thumbnail-options:active {
-  -webkit-transform: translateY(+2px);
-  -ms-transform: translateY(+2px);
-  transform: translateY(+2px);
-  -webkit-transform: translateX(+2px);
-  -ms-transform: translateX(+2px);
-  transform: translateX(+2px);
-  box-shadow: 1px 1px 1px 1px #888888;
-}
+// img.select-thumbnail-options:active {
+//   -webkit-transform: translateY(+2px);
+//   -ms-transform: translateY(+2px);
+//   transform: translateY(+2px);
+//   -webkit-transform: translateX(+2px);
+//   -ms-transform: translateX(+2px);
+//   transform: translateX(+2px);
+//   box-shadow: 1px 1px 1px 1px #888888;
+// }
 
 img.select-thumbnail-preview {
   border: solid 1px var(--primary-medium);
