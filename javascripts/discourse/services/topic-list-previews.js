@@ -128,10 +128,10 @@ export default Service.extend({
 
     if (customThumbnailMode) displayMode.push(customThumbnailMode);
 
-    if (thumbnailCategories.includes(viewingCategoryId) || thumbnailTags.includes(viewingTagId) || this.enabledForCurrentTopicListRouteType(currentTopicListRoute, "thumbnails")) {
+    if (thumbnailCategories.includes(viewingCategoryId)) {
       displayMode.push("thumbnails");
     }
-    if (tilesCategories.includes(viewingCategoryId) || tilesTags.includes(viewingTagId) || this.enabledForCurrentTopicListRouteType(currentTopicListRoute,"tiles")) {
+    if (tilesCategories.includes(viewingCategoryId)) {
       displayMode.push("tiles");
     }
     if (excerptCategories.includes(viewingCategoryId) || excerptTags.includes(viewingTagId) || this.enabledForCurrentTopicListRouteType(currentTopicListRoute,"excerpts")) {
