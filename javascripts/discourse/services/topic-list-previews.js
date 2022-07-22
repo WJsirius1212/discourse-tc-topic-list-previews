@@ -96,7 +96,7 @@ export default Service.extend({
     "router.currentRoute.attributes.category.id"
   )
   viewingCategoryId(currentRouteName, categoryId) {
-    if (!currentRouteName.match(/^discovery\./)) return;
+    // if (!currentRouteName.match(/^discovery\./)) return;
     return categoryId;
   },
 
