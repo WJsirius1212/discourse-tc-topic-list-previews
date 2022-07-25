@@ -200,6 +200,11 @@
 
   .topic-meta {
     grid-area: meta;
+    
+    .like-color-style{
+  color: var(--love); 
+}
+
 
     .topic-views {
       color: var(--primary-medium);
@@ -533,8 +538,5 @@ img.select-thumbnail-preview {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 0 0 0 rgba(0, 0, 0, 0.12);
 }
 
-.like-color-style{
-  color: var(--love); 
-}
 
 
