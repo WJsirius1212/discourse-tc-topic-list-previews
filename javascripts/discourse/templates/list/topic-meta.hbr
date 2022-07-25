@@ -5,9 +5,7 @@
 {{/if}}
 <div class="topic-meta">
   {{raw-plugin-outlet name="topic-list-tiles-meta"}}
-  <span class="middot inline sub"></span>
   <div class='topic-views inline sub>
-    <a href class='posts-map badge-posts {{likesHeat}}'>{{d-icon "far-comment"}}{{number topic.replyCount}}</a>
             {{#if topic.posters.0.user.name}}
               {{topic.posters.0.user.name}}
             {{else}}
