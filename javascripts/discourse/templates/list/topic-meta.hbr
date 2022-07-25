@@ -5,7 +5,7 @@
 {{/if}}
 <div class="topic-meta">
   {{raw-plugin-outlet name="topic-list-tiles-meta"}}
-  <div class='topic-views inline sub">
+  <div class='topic-views inline sub' >
   <span>
             {{#if topic.posters.0.user.name}}
               {{topic.posters.0.user.name}}
