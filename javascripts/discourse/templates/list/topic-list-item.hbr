@@ -17,7 +17,7 @@
     <div class="topic-details">
       <div class="topic-header-grid">
         {{raw "list/topic-list-title" topic=topic tilesStyle=tilesStyle showTopicPostBadges=showTopicPostBadges}}
-        <div class="topic-category">
+        <div class="topic-category category-id-{{topic.category_id}}">
           {{#if showCategoryBadge}}
             {{category-link topic.category}}
           {{/if}}
