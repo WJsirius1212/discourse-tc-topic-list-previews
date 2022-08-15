@@ -502,7 +502,7 @@ img.select-thumbnail-preview {
 }
 
 .portfolio-button-inner {
-  min-width: 150px;
+  // min-width: 150px;
   padding: .5em .65em;
   overflow: hidden;
   height: 20px;
@@ -510,7 +510,8 @@ img.select-thumbnail-preview {
   justify-content: center;
   white-space: nowrap;
   margin-bottom: 5px;
-  display: inline-flex;
+  // display: inline-flex;
+  display: flex;
   cursor: pointer;
 
   background-color: var(--tertiary);
